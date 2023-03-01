@@ -28,7 +28,8 @@ app.use("/quizzes",quizRouter)
 app.use("/reports",reportRouter)
 app.use("/users",userRouter)
 app.get('*', (req, res) => {
-    res.sendFile(path.resolve('Client', 'build', 'index.html'));
+    // res.sendFile(path.resolve('Client', 'build', 'index.html'));
+    res.sendFile("./Client/build/index.html")
     });
 app.use(sendErrorResponse)
 module.exports = app;
