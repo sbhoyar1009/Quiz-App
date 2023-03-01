@@ -1,9 +1,9 @@
 const express = require('express')
 const cors = require("cors")
 const bodyParser = require("body-parser")
-const quizRouter = require("../backend/routes/quiz.route")
-const reportRouter = require("../backend/routes/report.route")
-const userRouter = require("../backend/routes/user.route")
+const quizRouter = require("./routes/quiz.route")
+const reportRouter = require("./routes/report.route")
+const userRouter = require("./routes/user.route")
 const sendErrorResponse = require('./helper/sendErrorResponse')
 const app = express()
 
