@@ -18,7 +18,7 @@ const SingleCard = (props) => {
   let navigate = useNavigate();
 
   useEffect(() => {
-    setShareLink(`https://a96e-2401-4900-1c43-59cd-c599-c029-b86c-f5d9.in.ngrok.io/user/quiz/${quiz._id}`);
+    setShareLink(`https://quiz-app-production-cca5.up.railway.app/user/quiz/${quiz._id}`);
   }, []);
 
   const HandleReport = () => {
